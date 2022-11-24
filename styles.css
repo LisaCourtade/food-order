@@ -1,0 +1,82 @@
+.heading {
+    color:cornflowerblue;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    margin-top: 5%;
+}
+
+body {
+    overflow: hidden;
+}
+
+.category {
+    color:coral;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: large;
+    text-transform: capitalize;
+}
+
+#menu {
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    width: 100%;
+    text-transform: capitalize;
+    margin-left: 45%;
+}
+
+
+.menu-item {
+    width: fit-content;
+    cursor: pointer;
+    padding-bottom: 2.5px;
+    padding-top: 2.5px;
+
+}
+
+.meals-list {
+    margin-left: 2px;
+}
+
+
+.icon {
+    position: relative;
+    color:#706f6f;
+    height: 14px;
+    width: 14px;
+    padding-left: 5px;
+}
+
+.checkIconClicked {
+    color: rgb(34, 185, 42);
+}
+
+.plus {
+    height: 12px;
+    width: 12px;
+    padding-right: 2px;
+}
+
+.minus {
+    height: 12px;
+    width: 12px;
+    padding-right: 2px;
+}
+
+#total-menu {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: rgb(35, 184, 42);
+    margin-top: 35px;
+    margin-left: 45%;
+}
+
+
+.ingredients {
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    padding-top: 3px;
+    background-color: rgba(255, 228, 212, 0.973);
+}
